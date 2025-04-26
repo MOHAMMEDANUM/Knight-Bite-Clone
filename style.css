@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    background-color:rgba(1, 1,1, 0.2);
+    align-items: center;
+    height: 112px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    width: 176px;
+    height: 88px;
+    margin-left: 70px;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-left: auto;
+    padding-right: 70px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+    
+}
+
+
+/* header of home page starts */
+.home-header{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background:url(./assets/photo/app-link-background.svg) no-repeat center/cover;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.home-header h1{
+    font-size: 90px;
+    
+}
+.home-header a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff5672;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.home-header p{
+    font-size: 20px;
+    
+}
+/* header of home page starts */
+
+
+/* header of features page start */
+.features{
+    max-height: 100vh;
+    margin: 70px auto;
+    
+}
+
+.features h1{
+    font-size: 55px;
+    text-align: center;
+    margin: 60px auto;
+    
+   
+    
+}
+.features-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+.features-inner div{
+    text-align: center;
+    
+}
+.features p{
+    font-size: 20px;
+    margin: 30px 0px;
+    
+}
+
+/* header of features page end */
+
+
+/* header of photo-1 page start */
+
+.container3{
+    display: flex;
+    height: 100vh;
+    background:url(./assets/photo/WhatsApp\ Image\ 2025-04-26\ at\ 11.41.03\ AM.jpeg) no-repeat center/cover;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+/* header of photo-1 page end */
+
+
+/* header of photo-2 page start */
+
+
+.container4{
+    display: flex;
+    height: 100vh;
+    background:url(./assets/photo/WhatsApp\ Image\ 2025-04-26\ at\ 11.41.04\ AM\ \(1\).jpeg) no-repeat center/cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+}
+.container4 a button{
+    margin-top:140px;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border:white 2px solid;
+    border-radius: 50px;
+}
+
+
+/* header of photo-2 page end */
+
+
+/* header of contact page start */
+.container5{
+    
+}
+
+/* header of contact page end */
