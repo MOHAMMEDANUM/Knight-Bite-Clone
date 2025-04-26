@@ -147,8 +147,19 @@ nav{
 
 
 /* header of contact page start */
+
+
 .container5{
+    margin: 80px auto;
+    display: flex;
+    height: 100vh;
+    background-color: white;
+    justify-content: center;
+}
+.innercontainer5{
     
+    display:grid;
+
 }
 
 /* header of contact page end */
