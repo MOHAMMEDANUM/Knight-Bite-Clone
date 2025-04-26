@@ -151,15 +151,205 @@ nav{
 
 .container5{
     margin: 80px auto;
-    display: flex;
+    
     height: 100vh;
     background-color: white;
-    justify-content: center;
 }
+.container5 #us{
+    margin-bottom: 80px;
+    text-align: center;
+ 
+}
+
 .innercontainer5{
     
-    display:grid;
+    display: grid;
+    justify-content: space-around;
+    margin: 40px 50px;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    font-family: Nunito;
+    font-style: normal;
+    column-gap: 70px;
+    row-gap: 70px;
+    font-weight: 300;
+    font-size: 20px;
+
 
 }
 
+.email, .phone, .available{
+    margin:15px ;
+
+}
 /* header of contact page end */
+
+
+
+
+/*..............................End of Index.html..............................*/
+
+
+
+/*..............................Start of About.html..............................*/
+
+
+ /* header of about page */
+
+ *{
+    
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-header{
+    background:url(./assets/photo/banner.webp) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.about-header h1{
+    font-size: 3.8vw;
+    padding-left: 80px;
+    width: 50vw;
+    
+    text-transform: uppercase;
+    padding-top: 25vh;
+    
+}
+
+
+.about-content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 100px;
+    gap: 20px;
+    font-size: 21px;
+    
+}
+.about-content-1 img{
+    width: 30%;
+    height: 100%;
+    padding: auto 30px;
+   
+    
+}
+
+.about-content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 100px;
+    gap: 20px;
+    font-size: 21px;
+}
+
+.about-content-2 img{
+    width: 30%;
+    height: 100%;
+    padding: auto 30px;
+}
+.about-content-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 100px;
+    gap: 20px;
+    font-size: 21px;
+}
+.about-content-3 img{
+    width: 30%;
+    height: 100%;
+    padding: auto 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*..............................End of About.html..............................*/
+
+
+
+
+
+/*..............................Start of Menu.html..............................*/
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*..............................End of Menu.html..............................*/
+
+
+
+
+
+
+/*..............................Start of Franchise.html..............................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*..............................End of Franchise.html..............................*/
