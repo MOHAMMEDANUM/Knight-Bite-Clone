@@ -150,7 +150,7 @@ nav{
 
 
 .container5{
-    margin: 80px auto;
+    margin: 80px auto 0px auto;
     
     height: 100vh;
     background-color: white;
@@ -164,7 +164,7 @@ nav{
 .innercontainer5{
     
     display: grid;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 40px 50px;
     grid-template-columns: repeat(2, 1fr) 2fr;
     font-family: Nunito;
@@ -173,14 +173,24 @@ nav{
     row-gap: 70px;
     font-weight: 300;
     font-size: 20px;
-
-
 }
 
 .email, .phone, .available{
     margin:15px ;
 
 }
+
+.copy{
+    
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 0px;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+}
+
+
 /* header of contact page end */
 
 
