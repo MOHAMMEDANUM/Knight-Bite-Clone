@@ -200,6 +200,8 @@ nav{
 
 
 
+
+
 /*..............................Start of About.html..............................*/
 
 
@@ -211,74 +213,23 @@ nav{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.about-header{
-    background:url(./assets/photo/banner.webp) no-repeat center/cover;
+ }
+ .about-container{
+    background: url(./assets/photo/banner.webp) no-repeat center/cover;
     height: 100vh;
-    width: 100%;
+    padding: 200px 80px 80px 80px;
+    padding-bottom: ;
+ }
+ .about-container p{
+    font-size: 50px;
     color: white;
-    display: flex;
-    align-items: center;
+    display: block;
+    width: 100%;
     
     
-    
-}
-.about-header h1{
-    font-size: 3.8vw;
-    padding-left: 80px;
-    width: 50vw;
-    
-    text-transform: uppercase;
-    padding-top: 25vh;
-    
-}
+ }
 
-
-.about-content-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 150px 100px;
-    gap: 20px;
-    font-size: 21px;
-    
-}
-.about-content-1 img{
-    width: 30%;
-    height: 100%;
-    padding: auto 30px;
-   
-    
-}
-
-.about-content-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 150px 100px;
-    gap: 20px;
-    font-size: 21px;
-}
-
-.about-content-2 img{
-    width: 30%;
-    height: 100%;
-    padding: auto 30px;
-}
-.about-content-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 150px 100px;
-    gap: 20px;
-    font-size: 21px;
-}
-.about-content-3 img{
-    width: 30%;
-    height: 100%;
-    padding: auto 30px;
-}
+ 
 
 
 
@@ -322,7 +273,12 @@ nav{
 
 /*..............................Start of Menu.html..............................*/
  
-
+.menu-container{
+    display: flex;
+    height: 100vh;
+    background:url(./assets/photo/WhatsApp\ Image\ 2025-04-26\ at\ 11.41.04\ AM\ \(1\).jpeg) no-repeat center/cover;
+    
+}
 
 
 
