@@ -402,17 +402,36 @@ nav{
     
 }
 
-
-
-
-
-
 hr{
     width: 90%;
     height: 2px;
     margin: 20px 0px;
 }
 
+.franchise-content3{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.franchise-content3-1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 50px;
+    margin: 40px 40px;
+    gap: 30px;
+}
+
+.inner-content-1{
+    display: grid;
+    justify-items: center;
+    justify-items: center;
+    grid-template-columns: auto;
+    row-gap: 20px;
+    
+}
 
 
 
