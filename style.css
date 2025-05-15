@@ -404,8 +404,10 @@ nav{
 
 hr{
     width: 90%;
-    height: 2px;
-    margin: 20px 0px;
+    height: 4px;
+    margin: 20px 0px 50px 80px;
+    background-color: #C77BF4;
+    
 }
 
 .franchise-content3{
@@ -422,6 +424,32 @@ hr{
     row-gap: 50px;
     margin: 40px 40px;
     gap: 30px;
+}
+
+.franchise-content4{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.franchise-content4 button{
+    background-color: #ff5672;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s linear;
+    margin: 40px 0;
+}
+
+ .franchise-content4 button:hover{
+    background-color: white;
+    color: #ff5672;
+    
 }
 
 .inner-content-1{
