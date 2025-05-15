@@ -335,8 +335,8 @@ nav{
 
 
 .franchise-container{
-    
-    
+    display: flex;
+    align-content: center;
     color: white;
     background: url(./assets/photo/WhatsApp\ Image\ 2025-04-26\ at\ 11.41.04\ AM\ \(1\).jpeg) no-repeat center/cover;
     height: 100vh;
@@ -348,13 +348,10 @@ nav{
     align-items: center;
     grid-template-columns: auto;
     row-gap: 20px;
-    column-gap: 50px;
     width: 100%;
     font-family:cursive;
     font-size: 20px;
     color:  white;
-    margin-bottom: 180px;
-    
     
 }
 
@@ -406,7 +403,7 @@ hr{
     width: 90%;
     height: 4px;
     margin: 20px 0px 50px 80px;
-    background-color: #C77BF4;
+    background-color: #bd62f1;
     
 }
 
@@ -421,6 +418,9 @@ hr{
 .franchise-content3-1{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
     row-gap: 50px;
     margin: 40px 40px;
     gap: 30px;
@@ -438,7 +438,7 @@ hr{
     background-color: #ff5672;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border-color: #ff5672;
     border-radius: 20px;
     cursor: pointer;
     font-size: 1rem;
@@ -448,6 +448,7 @@ hr{
 
  .franchise-content4 button:hover{
     background-color: white;
+    border-color: #FF5672;
     color: #ff5672;
     
 }
@@ -459,6 +460,34 @@ hr{
     grid-template-columns: auto;
     row-gap: 20px;
     
+}
+
+.franchise-content5{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    row-gap: 40px;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.inner-content-5{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.inside-content-5{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 
