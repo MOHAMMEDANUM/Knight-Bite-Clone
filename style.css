@@ -218,7 +218,7 @@ nav{
     background: url(./assets/photo/banner.webp) no-repeat center/cover;
     height: 100vh;
     padding: 200px 80px 80px 80px;
-    padding-bottom: ;
+    
  }
  .about-container p{
     font-size: 50px;
@@ -276,9 +276,9 @@ nav{
 
 .menu-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    
     padding: 100px 0px;
     background: url(./assets/photo/WhatsApp\ Image\ 2025-04-26\ at\ 11.41.04\ AM\ \(1\).jpeg) no-repeat center/cover;
     
@@ -287,19 +287,46 @@ nav{
 .menu-container1{
     
     display: grid;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-    flex-direction: column;
-    padding: 100px 200px;
-    row-gap: 60px;
-    column-gap: 50px;
+    row-gap: 40px;
     width: 100%;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto;
     font-family: Nunito;
     color:  white;
 }
 
-
+.menu-inner-container{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+.menu-inner-container h1{
+    padding-bottom: 20px;
+    row-gap: 20px;
+}
+.menu-inner-container img{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#desserts-wrap-1 h1{
+    padding-top: 30px;
+}
+#desserts-wrap-1 img{
+    padding-top: 20px;
+}
+#desserts-wrap-2 h1{
+    padding-top: 30px;
+}
+#desserts-wrap-2 img{
+    padding-top: 30px;
+}
+.desserts-wrap-2 {
+    padding-top: 20px;
+}
 
 /*..............................End of Menu.html..............................*/
 
