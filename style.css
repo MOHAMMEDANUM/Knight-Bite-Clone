@@ -225,9 +225,20 @@ nav{
     display: block;
     width: 100%;
     
+ }
+ .about-section-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 50px;
+    margin: 50px 40px;
+    align-items: center;
     
  }
-
+ 
+.about-section-2 img{
+    width: 70%;
+    height: 70%;
+}
  
 
 
