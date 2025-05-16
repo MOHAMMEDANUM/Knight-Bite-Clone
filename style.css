@@ -239,8 +239,16 @@ nav{
  
 .about-section-2 img{
     width: 100%;
-    height: 70%;
+    height: 100%;
 
+}
+.second-grid{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 80px;
+    font-size: x-large;
+    
+    
 }
 
 .third-grid{
@@ -250,6 +258,12 @@ nav{
     font-size: x-large;
     
     
+}
+.grid-item{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 80px;
+    font-size: x-large;
 }
 
 .grid-item-locations{
