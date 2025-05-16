@@ -246,7 +246,13 @@ nav{
     row-gap: 10px;
     font-size: x-large;
 }
- 
+
+ .grid-item-follow-us{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 20px;
+    font-size: x-large;
+ }
 
 
 
