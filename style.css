@@ -232,11 +232,12 @@ nav{
     row-gap: 50px;
     margin: 50px 80px;
     align-items: center;
+    gap: 50px;
     
  }
  
 .about-section-2 img{
-    width: 70%;
+    width: 100%;
     height: 70%;
 }
 
