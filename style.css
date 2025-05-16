@@ -230,7 +230,7 @@ nav{
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 50px;
-    margin: 50px 40px;
+    margin: 50px 80px;
     align-items: center;
     
  }
@@ -238,6 +238,13 @@ nav{
 .about-section-2 img{
     width: 70%;
     height: 70%;
+}
+
+.grid-item-locations{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    font-size: x-large;
 }
  
 
