@@ -278,6 +278,13 @@ nav{
     grid-template-columns: auto;
     row-gap: 20px;
     font-size: x-large;
+
+ }
+ .grid-item-follow-us img {
+    height: 200px;
+    width: 100%;
+    
+   
  }
 
 
