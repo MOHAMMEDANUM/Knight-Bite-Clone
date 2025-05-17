@@ -188,6 +188,15 @@ nav{
     color: white;
     background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
 }
+.quick-links h1,li{
+    margin-bottom: 20px;
+
+}
+
+.address p,form{
+    margin-bottom: 20px;
+
+}
 .head-office h1,div{
     margin-bottom: 20px;
 }
@@ -204,6 +213,7 @@ nav{
     justify-content: space-between;
 
 }
+
 
 /* header of contact page end */
 
