@@ -165,7 +165,7 @@ nav{
     display: grid;
     justify-content: space-between;
     margin: 40px 50px;
-    grid-template-columns: repeat(2, 1fr) 2fr;
+    grid-template-columns: auto auto auto;
     font-family: Nunito;
     font-style: normal;
     column-gap: 70px;
@@ -188,7 +188,22 @@ nav{
     color: white;
     background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
 }
+.head-office h1,div{
+    margin-bottom: 20px;
+}
+.inner-location h1,li{
+    margin-bottom: 20px;
 
+}
+.social-media h1,div{
+    margin-bottom: 20px;
+
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+
+}
 
 /* header of contact page end */
 
