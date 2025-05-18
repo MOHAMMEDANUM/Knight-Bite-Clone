@@ -192,6 +192,9 @@ nav{
     margin-bottom: 20px;
 
 }
+.quick-links li{
+    margin-left: 20px;
+}
 
 .address p,form{
     margin-bottom: 20px;
