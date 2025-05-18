@@ -164,7 +164,7 @@ nav{
     
     display: grid;
     justify-content: space-between;
-    margin: 40px 50px;
+    margin: 40px 50px 0 50px;
     grid-template-columns: auto auto auto;
     font-family: Nunito;
     font-style: normal;
@@ -182,7 +182,7 @@ nav{
 .copy{
     
     text-align: center;
-    margin-top: 0px;
+    margin: 0px;
     padding: 15px 0px;
     font-size: 20px;
     color: white;
