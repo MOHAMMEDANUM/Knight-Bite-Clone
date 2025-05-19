@@ -151,7 +151,7 @@ nav{
 .container5{
     margin: 80px auto 0px auto;
     
-    height: 100vh;
+   
     background-color: white;
 }
 .container5 #us{
@@ -223,6 +223,12 @@ nav{
     display: flex;
     justify-content: space-between;
 
+}
+
+.contact-footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 
