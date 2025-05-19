@@ -260,6 +260,7 @@ nav{
     background: url(./assets/photo/banner.webp) no-repeat center/cover;
     height: 100vh;
     padding: 200px 80px 80px 80px;
+    margin: 0;
     
  }
  .about-container p{
@@ -377,6 +378,7 @@ nav{
     
     padding: 100px 0px;
     background: url(./assets/photo/WhatsApp\ Image\ 2025-04-26\ at\ 11.41.04\ AM\ \(1\).jpeg) no-repeat center/cover;
+    margin: 0;
     
 }
 
