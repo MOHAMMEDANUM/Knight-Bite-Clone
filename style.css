@@ -240,7 +240,7 @@ nav{
 
 @media (max-width:576px){
     nav{
-        width: 62%;
+        width: 87%;
     }
     .logo{
         margin-right: auto;
@@ -281,12 +281,11 @@ nav{
         display: grid;
         grid-template-columns: auto auto;
         
-
     }
-    .social-icons{
-        display: grid;
-        grid-template-columns: auto auto;
+    .copy{
+        width: 471px;
     }
+    
 
 }
 
