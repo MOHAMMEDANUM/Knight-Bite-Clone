@@ -266,6 +266,11 @@ nav{
         display: grid;
         grid-template-columns: auto auto;
     }
+
+    .container3{
+        font-size: large;
+
+    }
 }
 
 
