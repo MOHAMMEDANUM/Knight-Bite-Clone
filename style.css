@@ -278,18 +278,19 @@ nav{
 
     }
     .container4{
-        font-size: x-large;
+        font-size: large;
 
     }
     .container5{
-        width: 471px;
+        width: 412px;
 
     }
 
     .innercontainer5{
         font-size: large;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
+        width: auto;
         
     }
 
@@ -301,8 +302,16 @@ nav{
     .inner-location li{
         margin-left: 15px;
     }
+    /* .social-icons{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 10px;
+    }
+    #img{
+        margin-left: 5px;
+    } */
     .copy{
-        width: 471px;
+        width: 412px;
     }
     
 
