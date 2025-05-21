@@ -11,6 +11,8 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
+    flex-wrap:wrap;
+
 }
 .logo{
     width: 176px;
@@ -236,12 +238,29 @@ nav{
 /* header of contact page end */
 
 @media (max-width:576px){
-    body{
+    nav{
+        width: 30%;
+    }
+    .logo{
+        margin-right: auto;
+
+    }
+    .nav-links{
+        margin: 0 0 0 40px;
     }
     .home-header{
-    background:url(./assets/photo/app-link-background.svg) no-repeat center/cover;
-    
+    background:url(./assets/photo/app-link-background.svg) no-repeat center/cover; 
 
+    }
+    .home-header h1 {
+        font-size: x-large;
+    }
+    .app-links{
+        display: flex;
+        justify-content:space-around; 
+    }
+    .app-links img{
+        width: 40%;
     }
     .features-inner{
         display: grid;
