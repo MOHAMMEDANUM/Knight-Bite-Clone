@@ -215,10 +215,15 @@ nav{
 .head-office h1,div{
     margin-bottom: 20px;
 }
+
 .inner-location h1,li{
     margin-bottom: 20px;
+}
+.inner-location li{
+    margin-left: 17px;
 
 }
+
 .social-media h1,div{
     margin-bottom: 20px;
 
@@ -276,11 +281,25 @@ nav{
         font-size: x-large;
 
     }
+    .container5{
+        width: 471px;
+
+    }
+
     .innercontainer5{
         font-size: large;
         display: grid;
         grid-template-columns: auto auto;
         
+    }
+
+    .contact-footer{
+        width: 471px;
+
+
+    }
+    .inner-location li{
+        margin-left: 15px;
     }
     .copy{
         width: 471px;
