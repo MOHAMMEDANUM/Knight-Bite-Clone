@@ -510,6 +510,43 @@ nav{
     padding-top: 20px;
 }
 
+
+/* popup starts */
+
+.hidden1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #521010;
+    height: 400px;
+    width: 800px;
+    margin: 0;
+
+}
+.hidden1 div img{
+    width: 300px;
+    height: 400px;
+    margin: 0;
+}
+.hidden1 div{
+    margin: 0px;
+
+}
+.hidden1-content {
+    width: 100%;
+    font-size: xx-large;
+    
+}
+
+/* .hidden1:hover{
+    display: flex;
+} */
+
+/* popup ends */
+
+
+
 /*..............................End of Menu.html..............................*/
 
 
