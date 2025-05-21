@@ -223,7 +223,7 @@ nav{
 .social-icons{
     display: flex;
     justify-content: space-between;
-
+    
 }
 
 .contact-footer{
@@ -235,6 +235,19 @@ nav{
 
 /* header of contact page end */
 
+@media (max-width:576px){
+    body{
+    }
+    .home-header{
+    background:url(./assets/photo/app-link-background.svg) no-repeat center/cover;
+    
+
+    }
+    .features-inner{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
 
 
 
@@ -331,7 +344,6 @@ nav{
    
  }
 
- @media (max-width<)
 
 
 
