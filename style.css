@@ -239,7 +239,7 @@ nav{
 
 @media (max-width:576px){
     nav{
-        width: 30%;
+        width: 62%;
     }
     .logo{
         margin-right: auto;
@@ -269,6 +269,10 @@ nav{
 
     .container3{
         font-size: large;
+
+    }
+    .container4{
+        font-size: x-large;
 
     }
 }
