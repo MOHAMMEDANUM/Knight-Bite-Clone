@@ -152,9 +152,8 @@ nav{
 
 .container5{
     margin: 80px auto 0px auto;
-    
-   
     background-color: white;
+    
 }
 .container5 #us{
     margin-bottom: 80px;
@@ -197,7 +196,9 @@ nav{
 .quick-links li{
     margin-left: 20px;
 }
-
+.address{
+    margin-top: 10px;
+}
 .address form{
     margin-top: 40px;
     margin-bottom: 20px;
@@ -275,6 +276,14 @@ nav{
         font-size: x-large;
 
     }
+    .innercontainer5{
+        font-size: large;
+        display: grid;
+        grid-template-columns: auto auto;
+        
+
+    }
+
 }
 
 
