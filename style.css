@@ -654,7 +654,7 @@ hr{
 
 .franchise-content3-1{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     /* display: flex;
     flex-direction: column;
     justify-content: space-evenly; */
