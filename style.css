@@ -576,19 +576,24 @@ nav{
     align-content: center;
     color: white;
     background: url(./assets/photo/WhatsApp\ Image\ 2025-04-26\ at\ 11.41.04\ AM\ \(1\).jpeg) no-repeat center/cover;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    display: grid;
+    font-size: 20px;
+    width: 100%;
+    font-family:cursive;
+    color:  white;
+
 }
 
 .franchise-content1{
-    display: grid;
+    
     justify-items: center;
     align-items: center;
-    grid-template-columns: auto;
-    row-gap: 20px;
-    width: 100%;
-    font-family:cursive;
-    font-size: 20px;
-    color:  white;
+
+
+    
     
 }
 
