@@ -207,6 +207,7 @@ nav{
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    gap: 20px;
 
 }
 .address form img {
