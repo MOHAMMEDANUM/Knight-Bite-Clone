@@ -208,11 +208,19 @@ nav{
     grid-template-columns: auto auto;
     align-items: center;
     gap: 20px;
-
+    font-size: 20px;
 }
 .address form img {
     width: 30%;
     height: auto;
+}
+
+.address form input,textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 .head-office h1,div{
