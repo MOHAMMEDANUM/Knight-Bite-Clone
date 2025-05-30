@@ -2,13 +2,20 @@
 let hiddenToggle = document.querySelector(".toggle-hidden");
 let toggleButton = document.querySelector(".toggle");
 
+let toggleClose = document.querySelector("#close-icon-toggle");
+
 
 let toggleFunction = () => {
-   console.log("ajab");
       hiddenToggle.style="display:grid";
-
 }
-// toggleButton.addEventListener("click",popup)
+
+let closeFunction = () => {
+      hiddenToggle.style="display:none";
+}
+toggleClose.addEventListener("click", closeFunction);
+
+
+
 
 
 
