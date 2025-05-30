@@ -1,3 +1,16 @@
+// Home Section
+let hiddenToggle = document.querySelector(".toggle-hidden");
+let toggleButton = document.querySelector(".toggle");
+
+
+let toggleFunction = () => {
+   console.log("ajab");
+      hiddenToggle.style="display:grid";
+
+}
+// toggleButton.addEventListener("click",popup)
+
+
 
 // Menu Section 
 // This script handles the functionality of a menu section on a webpage.

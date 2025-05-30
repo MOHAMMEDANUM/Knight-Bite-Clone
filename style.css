@@ -274,6 +274,9 @@ nav{
     height: 600px;
     margin-left: auto;
     margin-right: 40px;
+    position: fixed;
+    top: 10vh;
+    right: 40px;
 }
 .toggle-hidden img{
     width: 200px;
