@@ -251,6 +251,20 @@ nav{
     align-content: center;
 }
 
+.toggle button{
+    padding: 20px;
+    background-color: #ff5672;
+    color: white;
+    border: none;
+    border-radius: 50px 20px 50px 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 88vh;
+    right: 40px;
+    
+
+
+}
 
 /* header of contact page end */
 
@@ -426,39 +440,6 @@ nav{
     margin-right: auto;
     
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
