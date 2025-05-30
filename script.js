@@ -7,10 +7,13 @@ let toggleClose = document.querySelector("#close-icon-toggle");
 
 let toggleFunction = () => {
       hiddenToggle.style="display:grid";
+      toggleButton.style="display:none";
 }
 
 let closeFunction = () => {
       hiddenToggle.style="display:none";
+      toggleButton.style="display:";
+
 }
 toggleClose.addEventListener("click", closeFunction);
 
