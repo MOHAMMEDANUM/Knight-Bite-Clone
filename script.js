@@ -1,5 +1,7 @@
 
 // Menu Section 
+// This script handles the functionality of a menu section on a webpage.
+// It allows users to open and close popup cards for different menu items.
  let popup1 = ()=>{
     let card1 = document.querySelector("#plus1")
     card1.style.display="flex"
