@@ -268,15 +268,15 @@ nav{
 
 .toggle-hidden{
     display: none;
-    background-color: #a77272;
+    background-color:#ccc;
     border-radius: 20px;
     width: 400px;
     height: 600px;
     margin-left: auto;
     margin-right: 40px;
     position: fixed;
-    top: 10vh;
-    right: 40px;
+    top: 14vh;
+    right: 20px;
 }
 .toggle-hidden img{
     width: 200px;
