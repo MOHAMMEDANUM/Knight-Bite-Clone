@@ -515,6 +515,7 @@ nav{
     background: url(./assets/photo/WhatsApp\ Image\ 2025-04-26\ at\ 11.41.04\ AM\ \(1\).jpeg) no-repeat center/cover;
     margin: 0;
     
+    
 }
 
 .menu-container1{
@@ -522,11 +523,12 @@ nav{
     display: grid;
     justify-items: center;
     align-items: center;
-    row-gap: 40px;
+    row-gap: 10px;
     width: 100%;
     grid-template-columns: auto auto auto;
     font-family: Nunito;
     color:  white;
+    
 }
 
 .menu-inner-container{
@@ -586,6 +588,10 @@ nav{
     width: 300px;
     height: 400px;
     margin: 0;
+    box-sizing: border-box;
+    border-radius: 15px 0 0 15px;
+    margin-top: 4px;
+
 }
 .hidden1 div{
     margin: 0px;
