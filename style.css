@@ -531,6 +531,7 @@ nav{
     
 }
 
+
 .menu-inner-container{
     display: grid;
     justify-items: center;
@@ -540,8 +541,14 @@ nav{
 }
 .menu-inner-container h1{
     padding-bottom: 20px;
-    row-gap: 20px;
 }
+
+#burger{
+    padding-bottom: 0px;
+
+}
+
+
 .menu-inner-container img{
     margin: 0px;
     padding: 0px;
@@ -557,7 +564,7 @@ nav{
     padding-top: 30px;
 }
 #desserts-wrap-2 img{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .desserts-wrap-2 {
     padding-top: 20px;
