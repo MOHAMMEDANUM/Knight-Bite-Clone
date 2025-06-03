@@ -565,6 +565,9 @@ nav{
 /* popup starts */
 .hidden{
     display: none;
+    position: fixed;
+    top: auto;
+    right: auto;
 }
 
 .hidden1{

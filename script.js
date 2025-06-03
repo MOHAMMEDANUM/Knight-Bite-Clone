@@ -15,7 +15,6 @@ let closeFunction = () => {
       toggleButton.style="display:";
 
 }
-toggleClose.addEventListener("click", closeFunction);
 
 
 
@@ -54,33 +53,33 @@ toggleClose.addEventListener("click", closeFunction);
     close3.style.display="none"
  }
 
-//  let popup4 = ()=>{
-//     let card4 = document.querySelector("#plus4")
-//     card4.style.display="flex"
-//  }
-//  let closeup4 = ()=>{
-//     let close4 = document.querySelector("#plus4")
-//     close4.style.display="none"
-//  }
+ let popup4 = ()=>{
+    let card4 = document.querySelector("#plus4")
+    card4.style.display="flex"
+ }
+ let closeup4 = ()=>{
+    let close4 = document.querySelector("#plus4")
+    close4.style.display="none"
+ }
 
 
-//  let popup5 = ()=>{
-//     let card5 = document.querySelector("#plus5")
-//     card3.style.display="flex"
-//  }
-//  let closeup5 = ()=>{
-//     let close5 = document.querySelector("#plus5")
-//     close5.style.display="none"
-//  }
+ let popup5 = ()=>{
+    let card5 = document.querySelector("#plus5")
+    card5.style.display="flex"
+ }
+ let closeup5 = ()=>{
+    let close5 = document.querySelector("#plus5")
+    close5.style.display="none"
+ }
 
-//  let popup6 = ()=>{
-//     let card6 = document.querySelector("#plus6")
-//     card6.style.display="flex"
-//  }
-//  let closeup6 = ()=>{
-//     let close6 = document.querySelector("#plus6")
-//     close6.style.display="none"
-//  }
+ let popup6 = ()=>{
+    let card6 = document.querySelector("#plus6")
+    card6.style.display="flex"
+ }
+ let closeup6 = ()=>{
+    let close6 = document.querySelector("#plus6")
+    close6.style.display="none"
+ }
 
 
 //  let storedata = ()=>{
